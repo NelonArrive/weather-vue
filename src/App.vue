@@ -23,7 +23,7 @@ async function fetchCity(city: string) {
 	const params = new URLSearchParams({
 		q: city,
 		lang: 'ru',
-		key: 'd084bfcc1bb742568c733205252611',
+		key: import.meta.env.VITE_WEATHER_API_KEY,
 		days: '4',
 	})
 	const res = await fetch(`${API_URL}/forecast.json?${params.toString()}`)

@@ -1,0 +1,29 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --color-primary: #fff;
+  --color-bg: #181818;
+  --color-primary-inverted: #000;
+  --color-bg-card: #2f2f2f;
+  --color-bg-main: #222222;
+  --color-bg-card-hover: #ffffff10;
+  --gradient: linear-gradient(91deg, rgba(224, 144, 205, 0.9) 0.2%, rgba(155, 84, 230, 0.9) 100%);
+  --gradient-panel: linear-gradient(256deg, rgba(255, 255, 255, 0.105) 9.04%, rgba(255, 255, 255, 0.268) 92.2%);
+  --font: "Rubik", sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--color-primary);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-bg);
+
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
